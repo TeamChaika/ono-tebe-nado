@@ -99,7 +99,7 @@ address > a, span {
     position: absolute; 
     inset: 0;
     background-color: rgba(0, 0, 0, 0.6); 
-    z-index: 1; 
+    z-index: 0; 
 }
 
 .cover__title {
@@ -262,14 +262,18 @@ address > a, span {
 }
 
 .item-lot {
-    height: 100%;    
+    position: relative;
+    min-height: 563px;   
 }
 
 .card-link {
     display: block;
     text-decoration: none;
     height: 100%;
+    z-index: 3;
+    
 }
+
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
     background-repeat: no-repeat;
@@ -289,11 +293,7 @@ address > a, span {
     background-size: cover;
 }
 
-.overlay-lots {
-    width: 100%;
-    height: 100%;
-    background-color: hsla(0, 0%, 0%, 0.6);
-}
+
 
 .card__title {
     font-size: 22px;
@@ -303,7 +303,8 @@ address > a, span {
     text-decoration-style: solid;
     color: #FFFFFF;
     text-transform: uppercase;
-
+    z-index: 1;
+ 
 }
 
 .card__text {
@@ -312,6 +313,8 @@ address > a, span {
     line-height: 24px;
     text-decoration: none;
     color:#fff;
+    z-index: 1;
+
 
 }
 .card_text_span_1 {
