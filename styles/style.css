@@ -53,7 +53,7 @@ header > address {
 }
 
 .logo {
-    background-color: aliceblue;
+    background-color:#fff;
 }
 
 .header__logo {
@@ -72,16 +72,10 @@ address {
 }
 
 address > a, span {
-    font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.3px;
     letter-spacing: 0.01em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    font-style: normal;
-
 }
 
 .cover {
@@ -118,9 +112,6 @@ address > a, span {
     font-weight: 700;
     line-height: 115px;
     letter-spacing: 0.3em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
 }
 
 .span-top-left-1 {
@@ -128,9 +119,6 @@ address > a, span {
     font-weight: 700;
     line-height: 115px;
     letter-spacing: 0.6em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
 }
 
 .span-center-center {
@@ -139,9 +127,6 @@ address > a, span {
     font-weight: 700;
     line-height: 100px;
     letter-spacing: 0.3em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     padding-top: 7px;
 
 }
@@ -151,10 +136,6 @@ address > a, span {
     font-weight: 700;
     line-height: 100px;
     letter-spacing: 0.6em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-
 }
 
 .cover__description {
@@ -175,13 +156,13 @@ address > a, span {
     font-weight: 400;
     line-height: 28px;
     word-spacing: 18.5px;
-    color: rgb(255, 255, 255);
+    color: #fff;
     align-self: center;
     padding-left: 37px;
 }
 
 .bet-button {
-    border: #FFFFFF 1px solid;
+    border: #fff 1px solid;
     width: 255px;
     height: 51px;
     font-size: 22px;
@@ -191,7 +172,7 @@ address > a, span {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     background-color: transparent;
-    color: #FFFFFF;
+    color: #fff;
     margin-top: -2px;
 }
 
@@ -317,15 +298,10 @@ address > a, span {
 
 }
 .card_text_span_1 {
-    font-family: Raleway;
 font-size: 20px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.13em;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
 }
 article {
     display: flex;
@@ -341,7 +317,6 @@ article {
     font-weight: 400;
     font-size: 20px;
     line-height: 23.48px;
-
 }
 
 .about {
@@ -432,7 +407,6 @@ footer > address {
     font-weight: 400;
     line-height: 21.13px;
     text-align: center;
-
 }
 
 .footer__social-list {
