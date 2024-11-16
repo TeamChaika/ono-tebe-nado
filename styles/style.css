@@ -90,16 +90,16 @@ address > a, span {
     grid-template-rows: 1fr 150px;
     align-items: center;
     height: 757px;
-    background-image: url('../images/cover.jpg');
+    background-image: url('./images/cover.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .overlay {
-    position: absolute; /* Позиционирование относительно родителя */
-    inset: 0; /* Занимает всю секцию */
-    background-color: rgba(0, 0, 0, 0.6); /* Полупрозрачный черный фон */
-    z-index: 1; /* Поверх содержимого секции */ 
+    position: absolute; 
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 1; 
 }
 
 .cover__title {
@@ -271,19 +271,19 @@ address > a, span {
     height: 100%;
 }
 .card_type_film {
-    background-image: url(../images/card-lot-01.jpg);
+    background-image: url(./images/card-lot-01.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .card_type_book {
-    background-image: url(../images/card-lot-02.jpg);
+    background-image: url(./images/card-lot-02.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .card_type_picture {
-    background-image: url(../images/card-lot-03.jpg);
+    background-image: url(./images/card-lot-03.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
