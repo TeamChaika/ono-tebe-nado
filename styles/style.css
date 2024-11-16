@@ -26,7 +26,7 @@ header > nav {
 }
 
 .header_link_list :last-child {
-    margin-right: 0; 
+    margin-right: 0;
 }
 header > address {
     margin: 7px 26px 2px 0px;
@@ -96,10 +96,10 @@ address > a, span {
     background-size: cover;
 }
 .overlay {
-    position: absolute; 
+    position: absolute;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.6); 
-    z-index: 0; 
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0;
 }
 
 .cover__title {
@@ -255,15 +255,14 @@ address > a, span {
 .list-lot {
     display: grid;
     grid-template-columns: repeat(3, 334px);
-
     list-style-type: none;
     grid-template-rows: 563px;
-    gap: 25px   ;
+    gap: 25px;
 }
 
 .item-lot {
     position: relative;
-    min-height: 563px;   
+    min-height: 563px;
 }
 
 .card-link {
@@ -367,7 +366,7 @@ article {
 }
 
 .about__logo-image {
-    width: 148px;    
+    width: 148px;
 }
 
 .about__info {
@@ -450,14 +449,13 @@ footer > address {
     text-transform: lowercase;
 }
 .footer__link_active {
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .footer__social-icon {
     width: 48px;
     height: 48px;
 }
-
 
 .footer__social {
     width: 240px;
