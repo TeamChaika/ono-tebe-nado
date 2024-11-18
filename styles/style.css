@@ -69,7 +69,7 @@ address {
     flex-direction: column;
     flex-wrap: initial;
     max-width: 240px;
-    font-style: normal; 
+    font-style: normal;
 }
 
 address > a, span {
