@@ -13,7 +13,6 @@
 
 <body>
   <header>
-
     <nav class="header__menu">
       <ul class="header_link_list">
         <li class="header__links-list-item header__links-list-item_no-bullet"><a class="header__link_active"
@@ -23,14 +22,12 @@
       </ul>
     </nav>
 
-    <div class="header__logo">
      <a href="#"> <img class="header__logo-image" src="./images/logo-black.svg" alt="Логотип Оно тебе надо"></a>
-    </div>
 
     <address>
-      <a class="address-tel" href="tel:+99995555555">+9 999 555 5555</a>
-      <a class='address_mail' href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-      <span class="header__address">наб. Принсенграхт 263- 265, Амстердам</span>
+      <a  href="tel:+99995555555">+9 999 555 5555</a>
+      <a  href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      <span >наб. Принсенграхт 263- 265, Амстердам</span>
     </address>
 
   </header>
@@ -38,13 +35,13 @@
   <section class="cover">
       <div class="overlay"></div>
         <h1 class="cover__title">
-          <span class="span-top-left">О<span class="span-top-left-1">НО</span></span>
-          <span class="span-center-center">ТЕ<span class="span-center-center-1">БЕ</span></span>
-          <span class="span-bottom-right">Н <span class="span-bottom-right-1">А<span class="span-bottom-right-2">Д
-              <span class="span-bottom-righ-3">О</span></span></span></span>
+          <span class="top-letter-left">о<span class="top-letter-spacing-extended">но</span></span>
+          <span class="center-letter-center">те<span class="center-letter-spacing-extended">бе</span></span>
+          <span class="bottom-letter-right">н<span class="bottom-letter-spacing-extended">а<span class="bottom-letter-spacing-standard">д
+              <span class="bottom-no-letter-spacing">о</span></span></span></span>
         </h1>
         <div class="cover__description">
-          <h2 class="cover__description-text">Аукцион вещей, в которые никто не верил</h2>
+          <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
           <button class="bet-button">СДЕЛАТЬ СТАВКУ</button>
          </div>
          
@@ -57,7 +54,7 @@
       <li class="item-lot card_type_film">
         <a class='card-link' href="#">  
           <div class="overlay"></div> 
-          <article>
+          <article class="card">
             <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
             <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не
               знали, что режиссёр — Пол Томас Андерсон?</p>
@@ -68,7 +65,7 @@
       <li class="item-lot card_type_book">
         <a class='card-link' href="#">
           <div class="overlay"></div>
-          <article>
+          <article  class="card">
             <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
             <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на
               древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с
@@ -82,7 +79,7 @@
       <li class="item-lot card_type_picture">
         <a class='card-link' href="#">
           <div class="overlay"></div>
-          <article class="overlay-lots">
+          <article  class="card">
             <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
             <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
               инфузорию-туфельку. Никаких полей, лесов, котиков<span class="card_text_span_1">...</span>Сколько бы вы на такое поставили, если бы не знали,
@@ -104,7 +101,7 @@
   <div class="about__logo">
    <img  class="about__logo-image" src="./images/logo-white.svg" alt="">
   </div>
-  <div class="about__info">
+  <article class="about__info">
     <h2 class="about_title">Об аукционе</h2>
     <div class="about__text">
     <p>
@@ -121,15 +118,15 @@
       И сейчас эти лоты стали культовыми. 
     </p>
   </div>
-  </div>
+  </article>
   </section>
 
 </main>
   <footer>
     <address>
-      <a class="address-tel" href="tel:+99995555555">+9 999 555 5555</a>
-      <a class='address_mail' href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-      <span class="header__address">наб. Принсенграхт 263- 265, Амстердам</span>
+      <a href="tel:+99995555555">+9 999 555 5555</a>
+      <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      <span>наб. Принсенграхт 263- 265, Амстердам</span>
     </address>
   
     <nav class="footer__menu">
