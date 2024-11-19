@@ -206,6 +206,7 @@ address > a, span {
     text-decoration-skip-ink: none;
     background-color: transparent;
     color: #fff;
+    text-transform: uppercase;
 }
 
 
@@ -224,7 +225,7 @@ address > a, span {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-
+    text-transform: uppercase;
 }
 
 .list-lot {
@@ -286,11 +287,11 @@ address > a, span {
 
 
 }
-.card_text_span_1 {
+.card_text_span_extended {
 font-size: 20px;
 font-weight: 400;
 line-height: 24px;
-letter-spacing: 0.13em;
+letter-spacing: 0.2em;
 }
 .card {
     display: flex;
@@ -359,24 +360,23 @@ letter-spacing: 0.13em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    gap: 25px;
+    gap: 27px;
 }
 
 footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 0px 50px 0px 50px;
+    margin: 0px 50px 88px 50px;
     justify-content: center;
     justify-items: center;
+    padding-top: 5px;
 }
-.about__text_1 {
-    margin-bottom: 5px;
-}
+
 
 footer > address {
     justify-self: start;
 }
-.footer_link_list {
+.footer-link-list {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -387,14 +387,14 @@ footer > address {
 
 }
   
-.footer__link {
+.footer-link {
     font-size: 18px;
     font-weight: 400;
     line-height: 21.13px;
     text-align: center;
 }
 
-.footer__social-list {
+.footer-social-list {
     display: flex;
     flex-direction: row;
     list-style-type: none;
@@ -402,20 +402,20 @@ footer > address {
     gap: 48px;
 }
 
-.footer__links-list-item {
+.footer-links-list-item {
     text-align: center;
     text-decoration: none;
     text-transform: lowercase;
 }
-.footer__link_active {
+.footer-link-active {
     text-decoration: none;
 }
 
-.footer__social-icon {
+.footer-social-icon {
     width: 48px;
     height: 48px;
 }
 
-.footer__social {
+.footer-social {
     justify-self: end;
 }
