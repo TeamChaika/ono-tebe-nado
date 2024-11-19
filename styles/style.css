@@ -112,11 +112,13 @@ span {
     color: #fff;
     gap: 20px;
 }
+
 .letter-style {
     font-size: 100px;
     font-weight: 700;
     line-height: 100px;
 }
+
 .top-letter-left {
     font-size: 100px;
     font-weight: 700;
