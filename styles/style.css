@@ -10,12 +10,13 @@ header {
     margin: 92px 24px 92px 24px;
 }
 
-header > nav {
+header>nav {
     width: 100%;
     margin-left: 21px;
     margin-top: 2px;
-    
+
 }
+
 .header_link_list {
     height: 100%;
     display: flex;
@@ -28,7 +29,8 @@ header > nav {
 .header_link_list :last-child {
     margin-right: 0;
 }
-header > address {
+
+header>address {
     margin: 7px 26px 2px 0px;
     justify-self: end;
 }
@@ -53,7 +55,7 @@ header > address {
 }
 
 .logo {
-    background-color:#fff;
+    background-color: #fff;
 }
 
 .header__logo {
@@ -72,7 +74,8 @@ address {
     font-style: normal;
 }
 
-address > a, span {
+address>a,
+span {
     font-size: 18px;
     font-weight: 400;
     line-height: 24.3px;
@@ -93,6 +96,7 @@ address > a, span {
     padding: 50px;
     gap: 25px;
 }
+
 .overlay {
     position: absolute;
     inset: 0;
@@ -108,7 +112,11 @@ address > a, span {
     color: #fff;
     gap: 20px;
 }
-
+.letter-style {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+}
 .top-letter-left {
     font-size: 100px;
     font-weight: 700;
@@ -126,51 +134,32 @@ address > a, span {
 
 .center-letter-center {
     justify-self: center;
-    font-size: 100px;
-    font-weight: 700;
-    line-height: 100px;
     letter-spacing: 0.3em;
 
 }
 
 .center-letter-spacing-extended {
-    font-size: 100px;
-    font-weight: 700;
-    line-height: 100px;
     letter-spacing: 0.6em;
 }
 
 .bottom-letter-right {
     justify-self: end;
-    font-size: 100px;
-    font-weight: 700;
-    line-height: 100px;
     letter-spacing: 0.6em;
     text-align: right;
     text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-
 }
 
 .bottom-letter-spacing-extended {
-    font-size: 100px;
-    font-weight: 700;
-    line-height: 100px;
     letter-spacing: 0.3em;
 
 }
+
 .bottom-letter-spacing-standard {
-    font-size: 100px;
-    font-weight: 700;
-    line-height: 100px;
     text-align: right;
     letter-spacing: 0.03em;
 }
 
 .bottom-no-letter-spacing {
-    font-size: 100px;
-    font-weight: 700;
-    line-height: 100px;
     text-align: right;
     letter-spacing: 0em;
 }
@@ -178,8 +167,8 @@ address > a, span {
 .cover__description {
     display: flex;
     z-index: 2;
-    justify-content:space-between;
-    padding-left:28px;
+    justify-content: space-between;
+    padding-left: 28px;
 }
 
 .cover__description-text {
@@ -203,7 +192,6 @@ address > a, span {
     line-height: 25.83px;
     text-align: center;
     text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     background-color: transparent;
     color: #fff;
     text-transform: uppercase;
@@ -217,14 +205,14 @@ address > a, span {
     flex-direction: column;
 
 }
+
 .title-lots {
-    margin:0px 0px 26px 40px;
+    margin: 0px 0px 26px 40px;
     font-size: 40px;
     font-weight: 700;
     line-height: 46.96px;
     text-align: left;
     text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     text-transform: uppercase;
 }
 
@@ -252,17 +240,18 @@ address > a, span {
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
- 
+
 }
+
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
 
 }
+
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
 
 }
-
 
 
 .card__title {
@@ -274,7 +263,7 @@ address > a, span {
     color: #FFFFFF;
     text-transform: uppercase;
     z-index: 1;
- 
+
 }
 
 .card__text {
@@ -282,17 +271,19 @@ address > a, span {
     font-weight: 400;
     line-height: 24px;
     text-decoration: none;
-    color:#fff;
+    color: #fff;
     z-index: 1;
 
 
 }
+
 .card_text_span_extended {
-font-size: 20px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.2em;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2em;
 }
+
 .card {
     display: flex;
     flex-direction: column;
@@ -326,7 +317,7 @@ letter-spacing: 0.2em;
     border-radius: 50%;
     background-color: #000;
     align-content: center;
-    
+
 }
 
 .about__logo-image {
@@ -373,9 +364,10 @@ footer {
 }
 
 
-footer > address {
+footer>address {
     justify-self: start;
 }
+
 .footer-link-list {
     width: 100%;
     display: flex;
@@ -386,7 +378,7 @@ footer > address {
     list-style-type: none;
 
 }
-  
+
 .footer-link {
     font-size: 18px;
     font-weight: 400;
@@ -407,6 +399,7 @@ footer > address {
     text-decoration: none;
     text-transform: lowercase;
 }
+
 .footer-link-active {
     text-decoration: none;
 }
