@@ -13,8 +13,6 @@ header {
 header>nav {
     width: 100%;
     margin-left: 21px;
-    margin-top: 2px;
-
 }
 
 .header_link_list {
@@ -31,7 +29,7 @@ header>nav {
 }
 
 header>address {
-    margin: 7px 26px 2px 0px;
+    margin: 7px 26px 0px 0px;
     justify-self: end;
 }
 
@@ -171,6 +169,7 @@ span {
     z-index: 2;
     justify-content: space-between;
     padding-left: 28px;
+    padding-top: 5px;
 }
 
 .cover__description-text {
@@ -303,7 +302,7 @@ span {
 }
 
 .about {
-    margin: 0px 24px 185px 24px;
+    margin: 0px 24px 179px 24px;
     display: grid;
     grid-template-columns: 240px 1fr;
     gap: 72px;
@@ -319,7 +318,6 @@ span {
     border-radius: 50%;
     background-color: #000;
     align-content: center;
-
 }
 
 .about__logo-image {
@@ -362,7 +360,6 @@ footer {
     margin: 0px 50px 88px 50px;
     justify-content: center;
     justify-items: center;
-    padding-top: 5px;
 }
 
 
